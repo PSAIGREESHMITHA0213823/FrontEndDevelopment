@@ -1,0 +1,38 @@
+a:hover{
+    color:pink;
+
+}
+a:active
+{
+    color:lawngreen;
+}
+input:focus
+{
+    border: 4px solid blue;
+    background-color:lightskyblue;
+}
+a:visited{
+    color:aqua;
+
+}
+li:first-child {
+  color: green;
+  font-weight: bold;
+}
+li:last-child {
+  color: red;
+}
+li:nth-child(2) {
+color:blue;
+}
+input:checked + label {
+  color:hotpink;
+  font-weight: bold;
+}
+input:disabled {
+  background-color: #ddd;
+  color: gray;
+}
+li:not(.special) {
+  color: blue;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li::before{
+            content:"👉"
+        }
+        li::after{
+            content:"🔗"
+
+        }
+        h1::first-letter
+        {
+            font-style: italic;
+            font-size: 10;
+            color:blue;
+        }
+        p::first-line
+        {
+            font-style: initial;
+            color:blueviolet;
+            font-size: 100%;
+        }
+        input::placeholder {
+  color:grey;
+  font-style: italic;
+}
+    </style>
+</head>
+<body>
+    <h1>Greeshu first-letter</h1>
+    <p>Hello Greeshmitha this first-line</p>
+    <div>
+        <ol>
+            <li>
+                Greeshu
+            </li>
+            <li>
+                Raji
+            </li>
+            <li>
+                Rayudu
+            </li>
+        </ol>
+    </div>
+    <label>Enter Name:</label>
+    <input type="text" placeholder="Enter your name">
+</body>
+</html>
