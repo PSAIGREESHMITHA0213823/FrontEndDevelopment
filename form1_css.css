@@ -1,0 +1,23 @@
+ form {
+  background-color: #f9f9f9; /* Light gray background */
+  color: #333; /* Dark text color */
+  border: 1px solid #ccc; /* Light border */
+  padding: 50px;
+  border-radius: 8px;
+  height:500px 
+}
+label::first-letter
+        {
+            font-style: italic;
+            font-size: 10;
+            color:blue;
+        }
+select:hover{
+    background-color: lavender;
+  }
+#form
+{
+  background-color:blueviolet;
+}
+
+        
